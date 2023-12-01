@@ -1,0 +1,20 @@
+#include<iostream>
+int main()
+{
+int num1,num2,num3,;
+cout<<"enter three numbers:";
+cin>>num1>>num2>>num3;
+if(num1>=num2&&num1>=num3){
+cout<<"largest number is:"<<num1<<endl;
+}
+elseif(num2>=num1&&num2>=num3)
+{
+cout<<"largest number is:"<<num2<<endl;
+}
+else
+{
+cout<<"largest number is:'<<num3<<endl;
+}
+return 0;
+}
+
